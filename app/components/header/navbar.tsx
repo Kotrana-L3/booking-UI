@@ -32,9 +32,9 @@ export default function Header() {
                     </Link>
                 </div>
                 <div className="flex flex-row items-center gap-5">
-                    <div className=" flex flex-row border-b-2 border-black items-center py-3 gap-2">
+                    <div className=" flex flex-row border-b-2  border-black items-center py-3 gap-2 hover:outline hover:outline-2 hover:outline-black hover:border-transparent px-2">
                         <IoSearchOutline className="text-2xl" />
-                        <input type="text" placeholder="Rechercer..." />
+                        <input type="text" placeholder="Rechercer..." className="outline-none"/>
                     </div>
                     <div className="flex flex-row">
                         <div className="flex flex-row items-center gap-2">
