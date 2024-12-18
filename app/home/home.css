@@ -13,6 +13,17 @@
     margin-top: 15vw;
     margin-left: 3.2vw;
     flex-direction: column;
-    gap:1vw;
-    font-size: 25px;
+    gap:1.5vw;
+    font-size: 20px;
+}
+
+.button{
+    transition:.3s;
+    border:1px transparent solid; 
+}
+
+.button:hover{
+    background-color: rgb(222, 183, 145) ;
+    color:black;
+    border: .5px solid black;
 }

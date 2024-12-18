@@ -14,7 +14,7 @@ export default function Home() {
                     <h1 className="text-7xl textWidth font-light">
                         COMME LA NATURE L'A PRÉVU
                     </h1>
-                    <button className="font-light bg-yellow-900 text-white mt-10 px-12 py-2">
+                    <button className="font-light bg-yellow-900 text-white mt-10 px-12 py-2 button">
                         Acheter
                     </button>
                 </div>
