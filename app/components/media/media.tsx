@@ -5,9 +5,24 @@ import "@/app/home/home.css"
 export default function Media() {
     return (
         <div className="media">
-            <TiSocialFacebook />
-            <IoLogoInstagram />
-            <FaPinterestP />
+            <a
+                href="https://www.facebook.com/"
+                className="mediaFb"
+            >
+                <TiSocialFacebook />
+            </a>
+            <a
+                href="https://www.instagram.com/"
+                className="mediaInsta"
+            >
+                <IoLogoInstagram />
+            </a>
+            <a
+                href="https://www.pinterest.com/"
+                className="mediaPint"
+            >
+                <FaPinterestP />
+            </a>
         </div>
     )
 }
