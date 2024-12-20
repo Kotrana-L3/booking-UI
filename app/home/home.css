@@ -7,14 +7,50 @@
     width: 700px;
 }
 
+.connexionText{
+    color:black;
+    transition:.1s;
+}
+
+.connexionText:hover{
+    color:rgb(157, 99, 40);
+}
+
 .media{
     position: fixed;
     display: flex;
     margin-top: 15vw;
-    margin-left: 3.2vw;
+    margin-left: 3.4vw;
     flex-direction: column;
     gap:1.5vw;
-    font-size: 22px;
+    font-size: 23px;
+}
+
+.mediaFb{
+    transition: .2s;
+}
+
+.mediaInsta{
+    transition: .2s;
+}
+
+.mediaPint{
+    transition: .2s;
+}
+
+.mediaFb:hover{
+    color: rgb(222, 183, 145);
+    transform: scale(1);
+}
+
+.mediaInsta:hover{
+    color: rgb(222, 183, 145);
+    transform: scale(1);
+}
+
+.mediaPint:hover{
+    color: rgb(222, 183, 145);
+    transform: scale(1);
 }
 
 .button{
@@ -48,6 +84,6 @@
 } 
 
 .shopButton:hover{
-    background-color: black;
+    background-color: rgb(113,63,18);
     color: white;
 }
