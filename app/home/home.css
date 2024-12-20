@@ -14,7 +14,7 @@
     margin-left: 3.2vw;
     flex-direction: column;
     gap:1.5vw;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .button{
@@ -26,4 +26,28 @@
     background-color: rgb(222, 183, 145) ;
     color:black;
     border: .5px solid black;
+}
+
+.firstSection{
+    padding-top:52vw;
+}
+
+.gifUnderTitle{
+    text-align: center;
+}
+
+.gifDescription{
+    width:350px;
+    text-align: start;
+}
+
+.shopButton{
+    border: 1px solid black;
+    width: 150px;
+    transition:.3s;
+} 
+
+.shopButton:hover{
+    background-color: black;
+    color: white;
 }
