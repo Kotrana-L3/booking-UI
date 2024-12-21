@@ -87,3 +87,18 @@
     background-color: rgb(113,63,18);
     color: white;
 }
+
+.secondSection{
+    margin-top: 5vw;
+}
+
+.soapUndertitle{
+    width:400px;
+    text-align: start;
+}
+
+.soapShadow{
+    width: 500px;
+    height:650px;
+    box-shadow: -60px 60px 0px -20px rgb(113,63,18);
+}
