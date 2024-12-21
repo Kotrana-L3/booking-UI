@@ -3,6 +3,7 @@ import Image from "next/image";
 import "@/app/home/home.css";
 import Media from "../components/media/media";
 import FirstSection from "../components/homeSection/firstSection";
+import SecondSection from "../components/homeSection/secondSection";
 export default function Home() {
     return (
         <main>
@@ -27,6 +28,9 @@ export default function Home() {
             <Media />
             <section>
                 <FirstSection />
+            </section>
+            <section>
+                <SecondSection />
             </section>
         </main>
     )
